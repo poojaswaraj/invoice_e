@@ -1,0 +1,537 @@
+html, body {
+    
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position:relative;
+    overflow-x: hidden;
+   
+}
+
+ul li, a
+{
+    text-decoration: none !important;
+    margin-top: 0%;
+    list-style: none;
+    font-size: 1em;
+   
+}
+body::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+#fa
+{
+    font-size:36px !important; 
+    color:blue !important;     
+}
+.profile-lable
+{
+    /*font-weight: bold !important;*/
+    font-weight: bold;
+    font-size: 16px;
+}
+.container
+{
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    
+}
+.sub-container
+{
+    width: 100%;
+    margin: 0% 0% 0% 0%;
+    height: auto;
+	/*background: rgba(128, 128, 128, 0.18);
+    background-image: url('../images/backgroundimg4.png'); */
+}
+.col-sm-12, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col-sm-6, .row {
+    padding: 0!important;
+    margin: 0!important;
+}
+.head {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    /* background: #028eb5; */
+    padding: 0% 2% 7% 2%;
+    /* background: #028eb5; */
+    border-bottom: 2px solid gray;
+}
+.chooz_logo {
+    position: absolute;
+    margin-left: 111px;
+    z-index: 999;
+    height: 78px;
+    width: 149px;
+    /* border-radius: 12px; */
+    top: 2px;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding: 5% 2% 5% 2%;
+    margin: 1%;
+	text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.gol {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 2px solid gray;
+}
+
+.glyphi {
+    text-align: center;
+    padding: 16% 0%;
+    font-size: 40px;
+	color: gray;
+}
+/*
+    color: white;
+}*/
+.menu
+{
+    width: 100%;
+    padding:15px 50px 15px 30px;
+    height: auto;
+    float: left;
+}
+/*.category
+{
+    width: 20%;
+    float: left;
+    height: 55px;
+    padding: 2%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}*/
+/*a*/
+/*{*/
+/*	text-decoration: none;*/
+/*    color: gray !important;*/
+/*}*/
+.login a
+{
+    padding:14% 0% 14% 0%;
+	text-decoration: none;
+    font-size: 18px;
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    color: gray !important;
+}
+select
+{
+    padding: 1% 1% 1% 1%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: relative;
+    /*top: -7px;*/
+}
+.searchbtn {
+    padding: 6px 43px;
+    /* color: white; */
+    /* background-color: #028eb5; */
+    /* border-color: #46b8da; */
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+/*----------------------------------*/
+.searchbtn:hover
+{
+    background-color: #eee;
+    /* border: 2px solid white;
+    color: white; */
+}
+/*-----------------------------------*/
+#search
+{
+    /*position: relative;
+    left: 120px;
+    top: -45px;*/
+    width: 300px;
+    border: 2px solid gray;
+    padding:0px 1px 1px 3px;
+    border-radius: 5px;
+	background-color:white !important;
+}
+.slider
+{
+    width: 100%;
+    margin: 0% 0% 0% 0%;
+    height: auto;
+}
+.sbtn
+{
+    padding: 2% 2%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.sbtn:hover
+{
+    padding: 9px 9px 10px 9px;
+}
+.category-list
+{
+    width: 99%;
+    padding: 2%;
+    float: left;
+    margin: 1%;
+    height: 395px;
+    overflow-y: scroll;
+}
+
+
+.category-list::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+.category-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    
+}
+ 
+.category-list::-webkit-scrollbar-thumb {
+  background-color: #028eb5;
+  outline: 1px solid slategrey;
+  border-radius: 5px;    
+}
+
+
+
+
+.inline-list {
+    font-size: 18px;
+    padding: 4%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid gray;
+    border-radius: 4px;
+    /* background-color: #028eb5; */
+    color: gray;
+    margin-bottom: 4px;
+}
+.inline-list>a
+{
+    list-style: none;
+    text-decoration: none;
+}
+.inline-list:hover
+{
+    background-color: #eee;
+}
+.product-wall
+{
+    /*background: rgba(128, 128, 128, 0.18);*/
+    min-height:550px;
+}
+.title
+{
+    width: 100%;
+    padding: 5% 0%;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    float: left;
+    text-align: center;
+}
+.pimage
+{
+    width: 200px;
+    height: 200px;
+    padding: 2%;
+}
+.products
+{
+    float: left;
+    width: 95%;
+    margin: 2% 2% 2% 2%;
+    height: auto;
+}
+.imgp
+{
+    width: 227px;
+    height: 165px;
+    margin: 5% 2% 5% 2%;
+    border-radius: 20px;
+    float: left;
+}
+
+img.imgp {
+    border-radius: 5px !important;
+}
+
+.productoutter
+{
+    /*border: 2px solid #028eb5;*/
+    float: left;
+    width: 100%;
+}
+.product-img
+{
+    float: left;
+}
+.pdetalis
+{
+    font-size: 15px;
+    text-align: justify;
+    padding: 5%;
+    width: 50%;
+    float: left;
+}
+.b-info
+{
+    float: left;
+    padding: 5% 2% 5% 2%;
+    width: 55%;
+}
+.viewbutton
+{
+    color: #fff;
+    background-color: #337ab7;
+    border: 2px solid #2e6da4;
+    padding: 2% 10%;
+    border-radius: 5px;
+}
+.viewbutton:hover
+{
+    background-color: rgba(51, 122, 183, 0.67);
+}
+.interestbutton
+{
+    color: #fff;
+    /*background-color: mediumseagreen;
+    border: 2px solid darkgreen;*/
+    padding: 2% 10%;
+    border-radius: 5px;
+    background-color: indianred;
+    border: 2px solid palevioletred;
+}
+.interestbutton:hover
+{
+    background-color: rgba(205, 92, 92, 0.7);
+}
+.productdetailimage
+{
+    margin: 5% 0%;
+}
+.prodetailimg
+{
+    width: 320px;
+    height: 320px;
+    margin: 5%;
+    border-radius: 5px;
+}
+.product-header
+{
+    font-size: 20px;
+    text-align: left;
+    padding: 2% 2% 1% 0%;
+    margin: 2% 2% 0% 2%;
+}
+.uline
+{
+    border-top: 1px solid rgba(158, 158, 158, 0.69);
+}
+.product-details
+{
+    padding: 1% 1% 1% 1%;
+    margin: 0% 1% 1% 1%;
+}
+.product-sub
+{
+    width: 80% !important;
+}
+.product-para
+{
+    font-family: 'Raleway', sans-serif;
+}
+#md-content
+{
+    border: 3px solid #028eb5;
+}
+.buttons
+{
+    padding: 10% 30% 3% 2%;
+}
+.footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 1%;
+    font-family: 'Raleway', sans-serif;
+    /* background-color: #028eb5; */
+	color: gray;
+    border-top: 2px solid gray;
+}
+/*-----------------------searchbar-------------------------------*/
+.bs-example{
+	font-family: sans-serif;
+	position: relative;
+	margin: 50px;
+}
+.typeahead, .tt-query, .tt-hint {
+	border: 2px solid #CCCCCC;
+	border-radius: 8px;
+	font-size: 15px;
+	height: 33px;
+    line-height: 30px;
+    top: -5px !important;
+	outline: medium none;
+	padding: 8px 12px;
+	width: 300px;
+	font-family: 'Raleway', sans-serif;
+}
+.typeahead {
+	background-color: #FFFFFF;
+}
+.typeahead:focus {
+	border: 2px solid #0097CF;
+}
+.tt-query {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.tt-hint {
+	color: #999999;
+}
+.tt-dropdown-menu {
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 12px;
+	padding: 8px 0;
+	width: 300px;
+   
+}
+.tt-suggestion {
+	font-size: 16px;
+	line-height: 24px;
+	padding: 3px 20px;
+}
+.tt-suggestion.tt-is-under-cursor {
+	background-color: #0097CF;
+	color: #FFFFFF;
+}
+.tt-suggestion p {
+	margin: 0;
+}
+/*---------------------------------------------------------------*/
+/*-----------------------logincode---------------------------------*/
+.panel-heading1
+{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-title
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+    font-family: 'Raleway', sans-serif;
+}
+.fieldset1
+{
+    width: 500px;
+}
+/*--------------responsive---------------*/
+/*--------------responsive---------------*/
+@media only screen and (max-width: 480px){
+ .chooz_logo {
+    height: 78px;
+    margin: 5% 28%;
+    width: 149px;
+     position: relative;
+}   
+.head {
+    float: left;
+}
+    .menu{
+        padding: 0;
+        margin: 2% 0%;
+    }
+select{
+    border: 2px solid gray;
+    width: 100%!important;
+    margin: 5% 0%!important;
+}
+    .login a {
+    padding: 5% 30%;
+    }
+    .gol {
+    width: 100px;
+    height: 100px;
+    margin: 5% 0%;
+    }
+    span.icon    {
+        font-size: 1em;
+    }
+    .title{
+        float: none;
+    }
+    
+}
+
+/*@media screen and (min-width: 768px){
+    .chooz_logo {
+    position: relative;
+    margin: 12% 12%
+    }
+    .head {
+    float: left;
+    padding: 0% 2% 1% 2%;
+}
+    .menu{
+        padding: 0;
+        margin: 2% 0%;
+    }
+select{
+    border: 2px solid gray;
+    width: 100%!important;
+    margin: 5% 0%!important;
+}
+    .login{
+        padding: 40% 0%;
+    }
+    .login a {
+    padding: 23% 0%;
+    }
+    .gol {
+    width: 100px;
+    height: 100px;
+    margin: 5% 0%;
+    }
+    span.icon    {
+        font-size: 1em;
+    }
+    .title{
+        float: none;
+    }
+    .signin{
+    position: relative;
+    top: -55px;
+    padding: 0% 30%;
+    font-size: 1.5em!important;
+    }
+}*/
